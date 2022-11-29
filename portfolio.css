@@ -7,20 +7,27 @@
     top: 0;
     z-index: 20;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background: rgb(141,172,249);
-    background: linear-gradient(0deg, rgba(141,172,249,1) 0%, rgba(77,130,250,0.87718837535014) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:goldenrod;
+    background-image:url('https://img.freepik.com/free-vector/gradient-abstract-constellation-background_23-2148282485.jpg?w=740&t=st=1669718630~exp=1669719230~hmac=240eb0773602a928525af3f0132e315490be9b0e3d89992fdaaed14d229b4cca');
+}
+#navBar h2:hover{
+border-radius: 5px;
+border:2px solid goldenrod;
+color:white;
+
 }
 #heroImg{
     border:1px solid teal;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
     background: rgb(237,249,141);
-    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgba(166,245,241,0.87718837535014) 100%);
+    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgba(11, 72, 104, 0.877) 100%);
 }
     #heroImg img{
-    height: 15%;
-    width: 15%;
+    height: 20%;
+    width: 20%;
     border-radius: 50%;
     border:1px dashed blue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -31,7 +38,7 @@
 
     text-align: center;
     background: rgb(237,249,141);
-    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgb(238, 245, 188) 100%);
+    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgba(237,249,141,1) 100%);
 }
 #aboutMe{
 border: 1px solid red;
