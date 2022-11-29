@@ -1,6 +1,28 @@
-#navbar{
+#navBar{
     display: flex;
     border:1px solid red;
-    justify-content: space-around;
+    justify-content:space-evenly;
     position: sticky;
+    top: 0;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgb(141,172,249);
+    background: linear-gradient(0deg, rgba(141,172,249,1) 0%, rgba(77,130,250,0.87718837535014) 100%);
+}
+#heroImg{
+    border:1px solid teal;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: rgb(237,249,141);
+    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgba(166,245,241,0.87718837535014) 100%);
+}
+    #heroImg img{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    border:1px dashed blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-items: center;
+    
 }
