@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
     <title>Portfolio</title>
 </head>
 <body>
@@ -19,7 +22,35 @@
     </div>
     <div id="heroImg">
       <img src="https://github.com/saraswatabhinandan29/saraswatabhinandan29/blob/main/Photo%20Resume.jpg?raw=true">
-    </div>
+      </div>
+      <div id="welcomeLine">
+        <h1>Hi,<br> I am Abhinandan Saraswat<br> an aspiring Java Backend Developer</h1><br>
+          <h3>to know more about me scroll down.</h3>
+      </div>
+      <div id="aboutMe">
+        <div><h1>About Me</h1></div>
+        <p> 1200+ hours of coding and 200+ hours of DSA not only made me a competent developer but a problem solver too.
+          Having professional attitude and Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas aspernatur accusantium eius autem esse sunt tenetur dolorem placeat soluta fugiat ipsa, perspiciatis, minus consectetur quaerat natus consequatur! Maxime, cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa veniam soluta enim. Accusantium, quas quaerat aspernatur alias omnis expedita amet id repellendus non quidem soluta error quasi reprehenderit sint!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis ex similique optio, repellat error accusantium, perspiciatis quis, rerum labore assumenda modi cum. Illo saepe voluptates totam officia doloremque error.
+        </p>
+       
+        <div class="calendar">
+          <h1>My Github stats</h1>
+         </div>
+      </div>
+      <div id="skills"></div>
     
 </body>
 </html>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+  GitHubCalendar(".calendar", "saraswatabhinandan29");
+  GitHubCalendar(".calendar", "saraswatabhinandan29", { responsive: true });
+   GitHubCalendar(".calendar", "your-saraswatabhinandan29", {
+     proxy (username) {
+       return fetch(`https://your-proxy.com/github?user=${saraswatabhinandan29}`)
+     }
+  }).then(r => r.text())
+</script>

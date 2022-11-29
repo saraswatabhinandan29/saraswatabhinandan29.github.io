@@ -1,10 +1,11 @@
+
 #navBar{
     display: flex;
     border:1px solid red;
     justify-content:space-evenly;
     position: sticky;
     top: 0;
-    border-radius: 20px;
+    z-index: 20;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: rgb(141,172,249);
     background: linear-gradient(0deg, rgba(141,172,249,1) 0%, rgba(77,130,250,0.87718837535014) 100%);
@@ -25,4 +26,21 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     justify-items: center;
     
+}
+#welcomeLine{
+
+    text-align: center;
+    background: rgb(237,249,141);
+    background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgb(238, 245, 188) 100%);
+}
+#aboutMe{
+border: 1px solid red;
+justify-content: center;
+text-align: center;
+background: rgb(237,249,141);
+background: linear-gradient(0deg, rgb(197, 247, 196) 0%, rgb(238, 245, 188) 100%);
+}
+.calendar{
+    background-color: white;
+    color: green;
 }
