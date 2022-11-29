@@ -44,3 +44,16 @@ background: linear-gradient(0deg, rgb(197, 247, 196) 0%, rgb(238, 245, 188) 100%
     background-color: white;
     color: green;
 }
+#skills div:nth-child(1){
+    text-align: center;
+}
+#skills div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    border:1px solid red;
+}
+#skills img{
+    width:11%;
+    height:200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
