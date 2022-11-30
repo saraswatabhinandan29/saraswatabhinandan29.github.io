@@ -27,7 +27,9 @@ color:white;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background: linear-gradient(0deg, rgb(125, 181, 236) 0%, rgba(11, 72, 104, 0.877) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://media.istockphoto.com/id/835370890/photo/sunset-sunrise-with-clouds-light-rays-and-other-atmospheric-effect.jpg?s=612x612&w=0&k=20&c=zGDOBYVFY74wX2gUgkonYGtNl1zenev5mPotAqUlJbM=');
 }
     #heroImg img{
     height: 20%;
@@ -43,6 +45,7 @@ color:white;
     text-align: center;
     background: linear-gradient(0deg, rgba(237,249,141,1) 0%, rgba(77,139,203,1) 100%);
     margin-top: 0px;
+
 }
 #aboutMe{
 border: 1px solid red;
